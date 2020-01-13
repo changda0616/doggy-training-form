@@ -8,6 +8,10 @@ import { Component, OnInit } from '@angular/core';
 export class TemplateDrivenFormComponent implements OnInit {
 
   constructor() { }
+  post = {
+    title: '',
+    detail: ''
+  };
 
   ngOnInit() {
   }
